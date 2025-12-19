@@ -424,3 +424,89 @@ footer a:hover {
     font-weight: 600;
     color: #d32f2f;
 }
+
+
+/* SFONDI ALTERNATI SEZIONI */
+
+/* Hero - mantieni com'è (già scuro con immagine) */
+
+/* Cosa - chiaro */
+section:nth-of-type(1) {
+    background: #ffffff;
+}
+
+/* Programma - scuro */
+section:nth-of-type(2) {
+    background: #1a1a1a;
+    color: #ffffff;
+}
+
+section:nth-of-type(2) h2,
+section:nth-of-type(2) h3 {
+    color: #ffffff;
+}
+
+/* Gallery - chiaro */
+.gallery {
+    background: #f5f5f5;
+}
+
+/* Prezzi - scuro */
+section:nth-of-type(4) {
+    background: #0d3b66;
+    color: #ffffff;
+}
+
+section:nth-of-type(4) h2 {
+    color: #ffffff;
+}
+
+section:nth-of-type(4) .price-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Testimonial - chiaro */
+.testimonial {
+    background: #f5f5f5;
+}
+
+/* FAQ - scuro */
+section:nth-of-type(6) {
+    background: #1a1a1a;
+    color: #ffffff;
+}
+
+section:nth-of-type(6) h2,
+section:nth-of-type(6) summary {
+    color: #ffffff;
+}
+
+section:nth-of-type(6) details {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Partner - chiaro */
+section:nth-of-type(7) {
+    background: #ffffff;
+}
+
+/* Form - scuro */
+section:nth-of-type(8) {
+    background: #0d3b66;
+    color: #ffffff;
+}
+
+section:nth-of-type(8) h2 {
+    color: #ffffff;
+}
+
+section:nth-of-type(8) label {
+    color: #ffffff;
+}
+
+/* Footer - molto scuro */
+footer {
+    background: #000000;
+}
