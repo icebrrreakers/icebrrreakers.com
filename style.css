@@ -428,7 +428,7 @@ footer a:hover {
 /* === SEZIONE APPROFONDIMENTI === */
 .approfondimenti {
   padding: 60px 20px;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: #fafbfc;
 }
 
 .approfondimenti h2 {
@@ -436,136 +436,148 @@ footer a:hover {
   font-size: 2.5em;
   margin-bottom: 10px;
   color: #2c3e50;
+  font-weight: 300;
+  letter-spacing: 0.5px;
 }
 
 .section-subtitle {
   text-align: center;
   color: #7f8c8d;
-  margin-bottom: 40px;
-  font-size: 1.1em;
+  margin-bottom: 50px;
+  font-size: 1.05em;
+  font-weight: 300;
 }
 
 .articoli-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+  gap: 25px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .articolo-card {
   background: white;
-  border-radius: 12px;
-  padding: 25px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 2px;
+  padding: 30px;
+  border: 1px solid #e8ebed;
+  transition: all 0.3s ease;
   position: relative;
 }
 
 .articolo-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  border-color: #95a5a6;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
 }
 
 .articolo-card.featured {
-  border: 3px solid #e74c3c;
-  background: linear-gradient(135deg, #fff 0%, #ffe5e5 100%);
+  border-left: 3px solid #34495e;
+  background: #ffffff;
 }
 
 .badge-nuovo {
   position: absolute;
-  top: 15px;
-  right: 15px;
-  background: #e74c3c;
+  top: 20px;
+  right: 20px;
+  background: #34495e;
   color: white;
-  padding: 5px 12px;
-  border-radius: 20px;
-  font-size: 0.85em;
-  font-weight: bold;
+  padding: 4px 12px;
+  border-radius: 2px;
+  font-size: 0.75em;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .articolo-card h3 {
-  font-size: 1.4em;
-  margin-bottom: 10px;
+  font-size: 1.3em;
+  margin-bottom: 12px;
   color: #2c3e50;
-  line-height: 1.3;
+  line-height: 1.4;
+  font-weight: 400;
 }
 
 .articolo-data {
-  font-size: 0.9em;
-  color: #7f8c8d;
-  margin-bottom: 8px;
+  font-size: 0.85em;
+  color: #95a5a6;
+  margin-bottom: 10px;
+  letter-spacing: 0.3px;
 }
 
 .articolo-desc {
   font-size: 0.95em;
-  color: #34495e;
-  margin-bottom: 15px;
+  color: #7f8c8d;
+  margin-bottom: 20px;
+  font-weight: 300;
   font-style: italic;
 }
 
 .articolo-links {
   display: flex;
-  gap: 10px;
+  gap: 12px;
   flex-wrap: wrap;
 }
 
 .btn-pdf, .btn-flipbook {
-  padding: 10px 20px;
-  border-radius: 6px;
+  padding: 12px 24px;
+  border-radius: 2px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
   transition: all 0.3s ease;
   font-size: 0.9em;
   text-align: center;
   flex: 1;
-  min-width: 120px;
+  min-width: 130px;
+  letter-spacing: 0.3px;
+  border: 1px solid;
 }
 
 .btn-pdf {
-  background: #3498db;
+  background: #34495e;
   color: white;
+  border-color: #34495e;
 }
 
 .btn-pdf:hover {
-  background: #2980b9;
-  transform: scale(1.05);
+  background: #2c3e50;
+  border-color: #2c3e50;
 }
 
 .btn-flipbook {
-  background: #95a5a6;
-  color: white;
+  background: transparent;
+  color: #34495e;
+  border-color: #34495e;
 }
 
 .btn-flipbook:hover {
-  background: #7f8c8d;
-  transform: scale(1.05);
+  background: #34495e;
+  color: white;
 }
 
 /* Hero Press Badge */
 .hero-press {
   text-align: center;
-  margin-top: -30px;
-  margin-bottom: 40px;
+  margin-top: -20px;
+  margin-bottom: 50px;
 }
 
 .hero-badge {
   display: inline-block;
-  background: rgba(231, 76, 60, 0.9);
-  color: white;
-  padding: 12px 25px;
-  border-radius: 30px;
+  background: transparent;
+  color: #2c3e50;
+  padding: 10px 30px;
+  border: 1px solid #34495e;
+  border-radius: 2px;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1em;
-  box-shadow: 0 4px 15px rgba(231, 76, 60, 0.4);
+  font-weight: 400;
+  font-size: 0.95em;
+  letter-spacing: 0.5px;
   transition: all 0.3s ease;
 }
 
 .hero-badge:hover {
-  background: rgba(192, 57, 43, 1);
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(231, 76, 60, 0.6);
+  background: #34495e;
+  color: white;
 }
 
 /* Responsive */
