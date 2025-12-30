@@ -165,11 +165,15 @@ h3 {
     background: #f5f5f5;
 }
 
-.moduli-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin-bottom: 2rem;
+.moduli-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.moduli-container {
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .modulo {
@@ -181,9 +185,13 @@ h3 {
     position: relative;
 }
 
-.modulo.featured {
+.modulo-grid {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.modulo {
     border: 3px solid #d32f2f;
-    transform: scale(1.05);
 }
 
 .price {
